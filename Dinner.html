@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head>    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style/webdesign.css" />
         <link rel="stylesheet" href="style/color.css" />
         <link rel="stylesheet" href="style/typography.css" />
@@ -26,9 +27,11 @@
 
 </p>
 <div id="content"> 
-    <div >
-        <img  src="./images/Picture3.jpg" alt="Dinner">
-    </div>
+    <picture >
+        <source media="(min-width:960px)" srcset="images/Picture3.jpg">
+            <source media="(min-width:480px)" srcset="images/Picture3.jpg">
+        <img  src="./images/Picture4.jpg" alt="Dinner"> 
+    </picture>
     <p1 id="header">
         <h1 id="header">Napoli’s Pizza</h1>
         I had dinner at Napoli’s tonight. I got the personal vodka pizza and it was the perfect size! So good! Will definitely go back again. I highly recommend this place to students as this pie was only $11.    </p1>
