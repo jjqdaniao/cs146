@@ -1,13 +1,27 @@
 * {
     margin: 0;
     padding: 0;
+    /* width: device-width; */
 }
 body{
     margin:1em 10%;
 }
+/* @-ms-viewport{
+    width: device-width;
+} */
+.container{
 
+    text-align: center;
+    max-height: auto;
+    max-width: 100%;;
+
+}
+.h{
+    text-align: center;
+    font-size: 40px;
+}
 #header{
-    /* background-image: url(../images/guitarist.gif); */
+    
     background-color: #000;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -16,14 +30,14 @@ body{
     border-bottom-width: 0;
 }
 #navigation{
-    /* background-image: url(../images/nav-bg.png); */
+    
     background-position: bottom left;
     background-repeat: repeat-x;
     border-width: .1em;
     border-style: solid;
     border-bottom-width: 0;
     border-top-width: 0;
-    /* padding-left: 25%; */
+
 }
 #navigation ul{
     width:100%;
