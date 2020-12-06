@@ -4,24 +4,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style/webdesign.css" />
-        <link rel="stylesheet" href="style/color.css" />
-        <link rel="stylesheet" href="style/typography.css" />  
+    <link rel="stylesheet" href="style/color.css" />
+    <link rel="stylesheet" href="style/typography.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style/buttonstyle.css"/>
+    <script src="javascript/button.js"> </script>
+    <script type="text/javascript" src="javascript/global.js" ></script>  
     <title>Page Title</title>
-    <!-- <style>
-        .container{
-            margin: 0 auto;
-            text-align: center;
-        }
-        .category{
-            border-style: double;
-            margin-left: 130px;
-            margin-right: 130px;
-            font-size: 23px;
-            background-color:grey;
-            
-        }
 
-    </style> -->
 </head>
 <body>
 
@@ -30,26 +21,54 @@
     <div id="navigation">
         <ul>
             <li><a href="index.html">Home   </a></li>
-                <li><a href="Breakfast.html">Breakfast   </a></li>
-                    <li><a href="Dinner.html">Dinner   </a></li>
-                        <li><a href="Lunch.html">Lunch  </a></li>
-                            <li><a href="Dessert.html">Dessert   </a></li>
-                                <li><a href="submit.html">Submit Review   </a></li>
-                                <li><a href="about.html" >About   </a></li>
-                            </ul>
+            <li><a href="Breakfast.html" >Breakfast   </a></li>
+            <li><a href="Lunch.html" >Lunch   </a></li>
+            <li><a href="Dinner.html" >Dinner   </a></li>
+            <li><a href="Dessert.html" >Dessert   </a></li>
+            <li><a href="Vegan.html" >Vegan Options   </a></li>
+            <li><a href="Submit.html" >Submit Review   </a></li>
+            <li><a href="about.html" >About   </a></li>
+        </ul>
     </div>
     
 
 </p>
-<div id="content"> 
+<div id="content">
     <picture >
-        <img  src="./images/Picture6.png" alt="Vegan">
+        <img  src="./images/Picture6.png" width="250" height="250" alt="Vegan">
     </picture>
-    <p1 id="header">
         <h1 id="header">Mamoun’s Falafel</h1>
-        This falafel was so great!  It was so filling ang a great vegan option here in Hoboken.  Will be going back again soon!
+        <p1 id="review-text">This falafel was so great!  It was so filling ang a great vegan option here in Hoboken. The chicken platter was $15. Will be going back again soon!
     </p1>
+    <div></div>
+    <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+    <p id="like-button-help">Click to give meal thumbs-up or thumbs-down (like/dislike)</p>
     </div>
+    <div id="content">
+        <picture >
+            <img  src="./images/playabowls.png" width="250" height="250" alt="Vegan">
+        </picture>
+            <h1 id="header">Playa Bowls</h1>
+            <p1 id="review-text">As a vegan, I loved the variety of options here at Playa Bowls! I was able to pick between so many bowls that were completely vegan and it tasted great! It cost about $10 but it was so worth it!
+        </p1>
+        <div></div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+        <p id="like-button-help">Click to give meal thumbs-up or thumbs-down (like/dislike)</p>
+        </div>
+        <div id="content">
+            <picture >
+                <img  src="./images/thebrick.png" width="250" height="250" alt="Vegan">
+            </picture>
+                <h1 id="header">The Brick</h1>
+                <p1 id="review-text">This vegan pizza was the best I have ever tried! All of the ingredients were so fresh and it tasted amazing. The entire pie was only $20.
+            </p1>
+            <div></div>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+            <p id="like-button-help">Click to give meal thumbs-up or thumbs-down (like/dislike)</p>
+            </div>
 
 </body>
 </html>

@@ -18,10 +18,11 @@ a:active{
     color: #778;
     background-color: #667;
 }
+
 #header{
-    color: #ec8;
-    background-color: #334;
-    border-color: #667;
+    color: #455;
+    background-color: #edc;
+    border-color:#edc;
 }
 #navigation{
     color: #455;
@@ -48,4 +49,11 @@ a:active{
 #navigation a:active{
     color: #667;
     background-color: #ec8;
+}
+#navigation a.here:link,
+#navigation a.here:visited,
+#navigation a.here:hover,
+#navigation a.here:active{
+    color:#eef;
+    background-color: #799;
 }

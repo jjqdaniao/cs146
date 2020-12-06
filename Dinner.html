@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style/webdesign.css" />
-        <link rel="stylesheet" href="style/color.css" />
-        <link rel="stylesheet" href="style/typography.css" />
+    <link rel="stylesheet" href="style/color.css" />
+    <link rel="stylesheet" href="style/typography.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style/buttonstyle.css"/>
+    <script src="javascript/button.js"> </script>
+    <script type="text/javascript" src="javascript/global.js" ></script>
     <title>Page Title</title>
 </head>
 <body>
@@ -14,27 +20,50 @@
     <div id="navigation">
         <ul>
             <li><a href="index.html">Home   </a></li>
-                <li><a href="Breakfast.html">Breakfast   </a></li>
-                    <li><a href="Lunch.html">Lunch </a></li>
-                        <li><a href="Dessert.html">Dessert   </a></li>
-                            <li><a href="Vegan.html">Vegan Options   </a></li>
-                                <li><a href="submit.html">Submit Review   </a></li>
-                                <li><a href="about.html" >About   </a></li>
-                            </ul>
+            <li><a href="Breakfast.html" >Breakfast   </a></li>
+            <li><a href="Lunch.html" >Lunch   </a></li>
+            <li><a href="Dinner.html" >Dinner   </a></li>
+            <li><a href="Dessert.html" >Dessert   </a></li>
+            <li><a href="Vegan.html" >Vegan Options   </a></li>
+            <li><a href="Submit.html" >Submit Review   </a></li>
+            <li><a href="about.html" >About   </a></li>
+        </ul>
     </div>
     
     
 
 </p>
-<div id="content"> 
+<div id="content">
     <picture >
         <source media="(min-width:960px)" srcset="images/Picture3.jpg">
             <source media="(min-width:480px)" srcset="images/Picture3.jpg">
-        <img  src="./images/Picture4.jpg" alt="Dinner"> 
+        <img  src="./images/Picture4.jpg" width="250" height="250" alt="Dinner">
     </picture>
-    <p1 id="header">
         <h1 id="header">Napoli’s Pizza</h1>
-        I had dinner at Napoli’s tonight. I got the personal vodka pizza and it was the perfect size! So good! Will definitely go back again. I highly recommend this place to students as this pie was only $11.    </p1>
+        <p1 id="review-text"> I had dinner at Napoli’s tonight. I got the personal vodka pizza and it was the perfect size! So good! Will definitely go back again. I highly recommend this place to students as this pie was only $11.    </p1>
+        <div></div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        <p id="like-button-help">Click on the icon to toggle between thumbs-up and thumbs-down (like/dislike):</p>
+    </div>
+    <div id="content">
+        <picture >
+            <img  src="./images/blueeyes.png" width="250" height="250" alt="Dinner">
+        </picture>
+            <h1 id="header">Blue Eyes</h1>
+            <p1 id="review-text"> While this meal was on the pricier end, it cost a little over $20, it was so worth it! The seafood pasta was delicious! </p1>
+            <div></div>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+            <p id="like-button-help">Click on the icon to toggle between thumbs-up and thumbs-down (like/dislike):</p>
+    </div>
+    <div id="content">
+        <picture >
+            <img  src="./images/augustinos.png" width="250" height="250" alt="Dinner">
+        </picture>
+            <h1 id="header">Augustinos</h1>
+            <p1 id="review-text"> I had the pasta from Augustino’s tonight and it was delicious! For $20 I got a really good meal. </p1>
+            <div></div>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+            <p id="like-button-help">Click on the icon to toggle between thumbs-up and thumbs-down (like/dislike):</p>
     </div>
 </body>
 </html>

@@ -4,8 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style/webdesign.css" />
-        <link rel="stylesheet" href="style/color.css" />
-        <link rel="stylesheet" href="style/typography.css" />
+    <link rel="stylesheet" href="style/color.css" />
+    <link rel="stylesheet" href="style/typography.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style/buttonstyle.css"/>
+    <script src="javascript/button.js"> </script>
+    <script type="text/javascript" src="javascript/global.js" ></script>
     <title>Page Title</title>
 </head>
 <body>
@@ -15,27 +19,54 @@
     <div id="navigation">
         <ul>
         <li><a href="index.html">Home   </a></li>
-            <li><a href="Lunch.html">Lunch   </a></li>
-                <li><a href="Dinner.html">Dinner   </a></li>
-                    <li><a href="Dessert.html">Dessert   </a></li>
-                        <li><a href="Vegan.html">Vegan Options   </a></li>
-                            <li><a href="submit.html">Submit Review   </a></li>
-                            <li><a href="about.html" >About   </a></li>
-                        </ul>
+        <li><a href="Breakfast.html">Breakfast   </a></li>
+        <li><a href="Lunch.html">Lunch   </a></li>
+        <li><a href="Dinner.html">Dinner   </a></li>
+        <li><a href="Dessert.html">Dessert   </a></li>
+        <li><a href="Vegan.html">Vegan Options   </a></li>
+        <li><a href="submit.html">Submit Review   </a></li>
+        <li><a href="about.html" >About   </a></li>
+        </ul>
     </div>
     
 
 </p>
-<div id="content"> 
-<picture >
-    <img  src="./images/Picture1.jpg" alt="Breakfast">
-</picture>
-<p1 id="header">
+<div id="content">
+    <picture >
+      <img  src="./images/anthonydavids.png" width="250" height="250" alt="Breakfast">
+    </picture>
     <h1 id="header">Anthony David’s</h1>
-    Today I had brunch at Anthony David’s. I ordered the eggs benedict, and it was the best I've ever had! The potatoes were also so delicious! Would definitely recommend!
-    
-</p1>
-</div>
+    <p1 id="review-text">
+    Today I had brunch at Anthony David’s. I ordered the eggs benedict, and it was the best I've ever had! The potatoes were also so delicious! The whole meal was only $14.00 and I got a lot. Would definitely recommend!
+    </p1>
+    <div></div>
+    <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    <p id="like-button-help">Click to give meal thumbs-up or thumbs-down (like/dislike)</p>
+  </div>
+  <div id="content">
+    <picture >
+      <img  src="./images/obagel.png" width="250" height="250" alt="Breakfast">
+    </picture>
+    <h1 id="header">OBagel</h1>
+    <p1 id="review-text">
+        This is a GREAT option for students in Hoboken! I got a really good bagel this morning for only $2 and it was so good.
+    </p1>
+    <div></div>
+    <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    <p id="like-button-help">Click to give meal thumbs-up or thumbs-down (like/dislike)</p>
+    </div>
+    <div id="content">
+        <picture >
+            <img  src="./images/turningPoint.png" width="250" height="250" alt="Breakfast">
+        </picture>
+        <h1 id="header">Turning Point</h1>
+        <p1 id="review-text">
+            This morning I went for breakfast at Turning Point of Hoboken. I tried the cinnamon roll pancakes and they were fantastic! I can’t wait to go back again! These pancakes were only $13.
+        </p1>
+        <div></div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        <p id="like-button-help">Click to give meal thumbs-up or thumbs-down (like/dislike)</p>
+        </div>
 
 </body>
 </html>

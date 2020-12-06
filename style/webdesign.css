@@ -1,14 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    /* width: device-width; */
+    
 }
 body{
     margin:1em 10%;
 }
-/* @-ms-viewport{
-    width: device-width;
-} */
+
 .container{
 
     text-align: center;
@@ -62,3 +60,4 @@ body{
     padding: 2em 10%;
     line-height: 1.8em;
 }
+#slideshow{ width: 150px; height: 150px; position: relative; overflow: hidden; }

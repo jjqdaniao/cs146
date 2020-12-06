@@ -34,6 +34,16 @@ h2{
 }
 h1{
     font-family: georgia,"times new roman",sans-serif;
-    font: 1.4em normal;
+    font: 2em normal;
     margin-top: 1em;
+}
+#like-button-help{
+    font-family: Georgia, 'Times New Roman', sans-serif;
+    font: 1em normal;
+    margin-top: 1em;
+}
+
+#review-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: 1.2em normal;
 }

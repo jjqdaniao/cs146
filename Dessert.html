@@ -5,24 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style/webdesign.css" />
-        <link rel="stylesheet" href="style/color.css" />
-        <link rel="stylesheet" href="style/typography.css" />
+    <link rel="stylesheet" href="style/color.css" />
+    <link rel="stylesheet" href="style/typography.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style/buttonstyle.css"/>
+    <script src="javascript/button.js"> </script>
+    <script type="text/javascript" src="javascript/global.js" ></script>
     <title>Page Title</title>
-    <!-- <style>
-        /* .container{
-            margin: 0 auto;
-            text-align: center;
-        }
-        .category{
-            border-style: double;
-            margin-left: 130px;
-            margin-right: 130px;
-            font-size: 23px;
-            background-color:grey;
-            
-        } */
 
-    </style> -->
 </head>
 <body>
 
@@ -31,28 +22,57 @@
     <div id="navigation">
         <ul>
             <li><a href="index.html">Home   </a></li>
-                <li><a href="Breakfast.html">Breakfast   </a></li>
-                    <li><a href="Dinner.html">Dinner   </a></li>
-                        <li><a href="Lunch.html">Lunch  </a></li>
-                            <li><a href="Vegan.html">Vegan Options   </a></li>
-                                <li><a href="submit.html">Submit Review   </a></li>
-                                <li><a href="about.html" >About   </a></li>
-                            </ul>
+            <li><a href="Breakfast.html" >Breakfast   </a></li>
+            <li><a href="Lunch.html" >Lunch   </a></li>
+            <li><a href="Dinner.html" >Dinner   </a></li>
+            <li><a href="Dessert.html" >Dessert   </a></li>
+            <li><a href="Vegan.html" >Vegan Options   </a></li>
+            <li><a href="Submit.html" >Submit Review   </a></li>
+            <li><a href="about.html" >About   </a></li>
+        </ul>
     </div>
     
     
 
 </p>
-<div id="content"> 
-    <picture >
-        <source media="(min-width:960px)" srcset="images/Picture5.jpg">
-            <source media="(min-width:480px)" srcset="images/Picture5.jpg">
-        <img  src="./images/Picture7.jpg" alt="Dessert">
+
+
+  
+  <div id="content">
+    <picture>
+      <source media="(min-width:960px)" srcset="images/Picture5.jpg">
+      <source media="(min-width:480px)" srcset="images/Picture5.jpg">
+      <img  src="./images/Picture7.jpg" width="250" height="250" alt="Dessert">
     </picture>
-    <p1 id="header">
-        <h1 id="header">Insomnia Cookies</h1>
-        This place is the best for a cheap, quick dessert. Each cookie is less than 2 dollars so it is a very budget friendly way to grab some food with friends.    </p1>
+    <h1 id="header">Insomnia Cookies</h1>
+    <p1 id="review-text">
+      This place is the best for a cheap, quick dessert. Each cookie is less than 2 dollars so it is a very budget friendly way to grab some food with friends.    </p1>
+      <div></div>
+      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      <p id="like-button-help">Click to give meal thumbs-up or thumbs-down (like/dislike)</p>
     </div>
+    <div id="content">
+      <picture >
+        <img  src="./images/hotchocolate.png" width="250" height="250" alt="Dessert">
+      </picture>
+      <h1 id="header">Turning Point of Hoboken</h1>
+      <p1 id="review-text">
+          This hot chocolate from Turning Point of Hoboken was so delicious! It was their special smores hot chocolate and it was such a tasty dessert for only $3.</p1>
+     <div></div>
+      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      <p id="like-button-help">Click to give meal thumbs-up or thumbs-down (like/dislike)</p>
+      </div>
+      <div id="content">
+          <picture >
+              <img  src="./images/gongcha.png" width="250" height="250" alt="Dessert">
+          </picture>
+          <h1 id="header">Gong Cha</h1>
+          <p1 id="review-text">
+              Today I tried a delicious bubble tea from Gong cha. I got the brown sugar flavor with sweet foam on top and it was delicious! I will definitely be going back to try more flavors since it was only $4.</p1>
+         <div></div>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+          <p id="like-button-help">Click to give meal thumbs-up or thumbs-down (like/dislike)</p>
+          </div>
 
 </body>
 </html>
