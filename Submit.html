@@ -1,63 +1,53 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style/webdesign.css" />
-<link rel="stylesheet" href="style/color.css" />
-<link rel="stylesheet" href="style/typography.css" />
-<script src="javascript/button.js"> </script>
-<script type="text/javascript" src="javascript/global.js" ></script>  
-<head>
-    
-
-    <title>Page Title</title>
-
-</head>
-<body>
-
-<h1  class="h">Submit Review</h1>
-<p>
-    <div id="navigation">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/webdesign.css" />
+  <link rel="stylesheet" href="style/color.css" />
+  <link rel="stylesheet" href="style/typography.css" />
+  <script src="javascript/button.js"> </script>
+  <script type="text/javascript" src="javascript/global.js" ></script>
+  <head>
+    <title>Review Submissions</title>
+  </head>
+  <body>
+    <h1  class="h">Submit Review</h1>
+    <p>
+      <div id="navigation">
         <ul>
-            <li><a href="index.html">Home   </a></li>
-            <li><a href="Breakfast.html" >Breakfast   </a></li>
-            <li><a href="Lunch.html" >Lunch   </a></li>
-            <li><a href="Dinner.html" >Dinner   </a></li>
-            <li><a href="Dessert.html" >Dessert   </a></li>
-            <li><a href="Vegan.html" >Vegan Options   </a></li>
-            <li><a href="Submit.html" >Submit Review   </a></li>
-            <li><a href="about.html" >About   </a></li>
+        <li><a href="index.html">Home   </a></li>
+        <li><a href="Breakfast.html" >Breakfast   </a></li>
+        <li><a href="Lunch.html" >Lunch   </a></li>
+        <li><a href="Dinner.html" >Dinner   </a></li>
+        <li><a href="Dessert.html" >Dessert   </a></li>
+        <li><a href="Vegan.html" >Vegan Options   </a></li>
+        <li><a href="Submit.html" >Submit Review   </a></li>
+        <li><a href="about.html" >About   </a></li>
         </ul>
-    </div>
-    
-
-</p>
-
-<h2 align="center">Write Your Own Review</h2>
-
-<form align="center" id="myForm" action="submitReview()" method="get">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value=""><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value=""><br>
-    <label for="email">Email:</label><br>
-    <input type="text" id="email" name="email" value=""><br>
-    <label for="date">Date:</label><br>
-    <input type="date" name="date"><br>
-    <label for="rname">Restaurant Name:</label><br>
-    <input type="text" id="rname" name="rname" value=""><br>
-    <label for="fileToUpload">Photo</label><br>
-    <input type="file" name="fileToUpload" id="fileToUpload"><br>
-    <label for="review">Review:</label><br>
-    <textarea type="text" id="review" name="review" value="" rows="5" cols="40"></textarea><br><br>
-  </form>
-    <div style="text-align:center;">
-      <button onclick="submitReview()"/>Submit</button>
-      <input type="reset" name="reset">
-    <div>
-    <br>
-    <br>
-    <div id="reviewss" style="text-align:center;"></div>
-
-
-</body>
+      </div>
+    </p>
+    <h2 align="center">Write Your Own Review</h2>
+    <form align="center" id="myForm" action="submitReview()" method="get">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" value=""><br>
+        <label for="date">Date:</label><br>
+        <input type="date" name="date"><br>
+        <label for="rname">Restaurant Name:</label><br>
+        <input type="text" id="rname" name="rname" value=""><br>
+        <label for="fileToUpload">Photo</label><br>
+        <input type="file" name="fileToUpload" id="fileToUpload"><br>
+        <label for="review">Review:</label><br>
+        <textarea type="text" id="review" name="review" value="" rows="5" cols="40"></textarea><br><br>
+      </form>
+        <div style="text-align:center;">
+          <button onclick="submitReview()"/>Submit</button>
+          <input type="reset" name="reset">
+        <div>
+        <br>
+        <br>
+        <div id="reviewss" style="text-align:center;"></div>
+  </body>
 </html>
