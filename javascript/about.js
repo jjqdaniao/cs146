@@ -21,8 +21,13 @@ function prepareInternalnav(){
         document.getElementById(sectionId).style.display = "none";        
         links[i].destination = sectionId;
         links[i].onclick = function(){
-            showSection(this.destination);
-            return false;
+            if (document.getElementById(this.destination).style.display == "block" ) {
+                document.getElementById(this.destination).style.display = "none"; 
+                return false;
+            }else {
+                showSection(this.destination);
+                return false; 
+            }
         }
     }
 }
